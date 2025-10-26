@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/character.png" type="image/png">
+  <title>Tibi Cookie Collector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Game field container -->
+  <div id="game-field">
+    <!-- Player character element -->
+    <div id="player" class="character"></div>
+  </div>
+
+  <!-- Scoreboard: displays collected cookies count -->
+  <div id="scoreboard" style="
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    z-index: 1000;
+  ">
+    Cookies collected: <span id="score">0</span>
+  </div>
+
+  <!-- JavaScript game logic -->
+  <script src="script.js"></script>
+</body>
+</html>
